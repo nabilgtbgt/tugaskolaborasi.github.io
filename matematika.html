@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Pembelajaran & Tugas</title>
+    <!-- Menghubungkan ke file matematika.css -->
+    <link rel="stylesheet" href="matematika.css">
+</head>
+<body>
+
+    <!-- Navigasi Header Kanan -->
+    <div class="header-wrapper">
+        <nav class="nav-container">
+            <a href="index.html">Home</a>
+            <a href="matematika.html" class="active">Topik</a>
+            <a href="index.html">Tentang</a>
+            <a href="index.html">Kontak</a>
+        </nav>
+    </div>
+
+    <!-- Kontainer Utama Halaman -->
+    <div class="main-wrapper">
+
+        <!-- KARTU 1: Analisis 3 Materi Matematika (SPLDV) -->
+        <div class="main-card">
+            <div class="tabs">
+                <button class="tab-btn active" onclick="switchTab(0)">Materi 1: Jam & Speaker</button>
+                <button class="tab-btn" onclick="switchTab(1)">Materi 2: Jamm & Lampu</button>
+                <button class="tab-btn" onclick="switchTab(2)">Materi 3: Hiassan & Lampu Hias</button>
+            </div>
+
+            <!-- Content Materi 1 -->
+            <div class="content materi1 active">
+                <h2>Jam & Speaker</h2>
+                <div class="image-container">
+                    <img class="poster-img" src="matematiika chelsea.jpeg" alt="Poster 1">
+                </div>
+                
+                <div class="package-grid">
+                    <div class="package-card">
+                        <div class="package-title">Paket 1</div>
+                        <div class="package-detail">2 Jam<br>+ 1 Speaker</div>
+                        <div class="package-price">Rp 390.000</div>
+                    </div>
+                    <div class="package-card">
+                        <div class="package-title">Paket 2</div>
+                        <div class="package-detail">2 Jam<br>+ 3 Speaker</div>
+                        <div class="package-price">Rp 690.000</div>
+                    </div>
+                </div>
+
+                <div class="section-title">Perumpamaan</div>
+                <div class="math-box">x= Jam</div>
+                <div class="math-box">y= Speaker</div>
+                <div class="section-title">Model Matematika (SPLDV)</div>
+                <div class="math-box">2x + y = 390.000 (Paket 1)</div>
+                <div class="math-box">2x + 3y = 690.000 (Paket 2)</div>
+
+                <div class="section-title">Bentuk Penyelesaian</div>
+                <div class="math-box">Eliminasi y untuk memperoleh nilai x</div>
+                <diiv class="math-box">2x+y=390.000 dikali (3)</diiv>
+                <div class="math-box">2x+3y=690.000 dikali (1)</div>
+                <div class="math-box">= 6x+3y=1.170.000</div>
+                <div class="math-box">=2x+3y=690.000</div>
+                <div class="math-box">4x  =480.000</div>
+                <div class="math-box">X= 480.000:4 </div>
+                <diiv class="math-box">x = 120.000</diiv>
+                <br>
+
+                <br>
+                <div class="math-box">Subsitusi</div>
+                <div class="math-box">2x+y=390.000 </div>
+                <diiv class="math-box">2 (120.000)+y=390.000</diiv>
+                <div class="math-box">240.000+y=390.000</div>
+                <div class="math-box">y= 390.000-240.000</div>
+                <div class="math-box">y= 150</div>
+                
+                <div class="result-card">
+                    <h3>Hasil Perhitungan Harga Satuan:</h3>
+                    <div class="result-item">
+                        <span>1 Jam  (x):</span>
+                        <strong>Rp 120.000</strong>
+                    </div>
+                    <div class="result-item">
+                        <span>1 Speaker (y):</span>
+                        <strong>Rp 150.000</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Materi 2 -->
+            <div class="content materi2">
+                <h2>Robot & Rak Buku</h2>
+                <div class="image-container">
+                    <img class="poster-img" src="matematika nabil.jpeg" alt="Poster 2">
+                </div>
+                
+                <div class="package-grid">
+                    <div class="package-card">
+                        <div class="package-title">Paket 1</div>
+                        <div class="package-detail">2 Jamm<br>+ 1 Lampu</div>
+                        <div class="package-price">Rp 330.000</div>
+                    </div>
+                    <div class="package-card">
+                        <div class="package-title">Paket 2</div>
+                        <div class="package-detail">3 Jam<br>+ 4 Lampu</div>
+                        <div class="package-price">Rp 720.000</div>
+                    </div>
+                </div>
+
+                <div class="section-title">Perumpamaan</div>
+                <div class="math-box">x= Jam</div>
+                <div class="math-box">y= Lammpu</div>
+
+                <div class="section-title">Model Matematika (SPLDV)</div>
+                <div class="math-box">2x + y =330.000 (Paket 1)</div>
+                <div class="math-box">3x + 4y =720.000 (Paket 2)</div>
+
+                <div class="section-title"> Bentuk Penyelesaian</div>
+                <div class="math-box">Eliminasi y untuk memperoleh nilai x</div>
+                <diiv class="math-box">2x+y=330.000 dikali (4)</diiv>
+                <div class="math-box">3x+4y=720.000 dikali (1)</div>
+                <div class="math-box">=8x+4y=1.320.000</div>
+                <div class="math-box">=3x+4y=720.000</div>
+                <div class="math-box">5x  =600.000</div>
+                <div class="math-box">X =600.000:4 </div>
+                <diiv class="math-box">x =120.000</diiv>
+                <br>
+
+                <br>
+                <div class="math-box">Subsitusi</div>
+                <div class="math-box">2x+y=330.000 </div>
+                <diiv class="math-box">2 (120.000)+y=330.000</diiv>
+                <div class="math-box">240.000+y=330.000</div>
+                <div class="math-box">y= 330.000-240.000</div>
+                <div class="math-box">y=90.000</div>
+                
+
+                <div class="result-card">
+                    <h3>Hasil Perhitungan Harga Satuan:</h3>
+                    <div class="result-item">
+                        <span>1 Jams (x):</span>
+                        <strong>Rp 120.000</strong>
+                    </div>
+                    <div class="result-item">
+                        <span>1Lampu (y):</span>
+                        <strong>Rp 90.000</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Content Materi 3 -->
+            <div class="content materi3">
+                <h2>Paket Dekorasi Meja</h2>
+                <div class="image-container">
+                    <img class="poster-img" src="matematika noval.jpeg" alt="Poster 3">
+                </div>
+                
+                <div class="package-grid">
+                    <div class="package-card">
+                        <div class="package-title">Paket A</div>
+                        <div class="package-detail">1 Hiasan Periferal<br>+ 2 Lampu Motherboard</div>
+                        <div class="package-price">Rp 230.000</div>
+                    </div>
+                    <div class="package-card">
+                        <div class="package-title">Paket B</div>
+                        <div class="package-detail">2 Hiasan Periferal<br>+ 1 Lampu Motherboard</div>
+                        <div class="package-price">Rp 190.000</div>
+                    </div>
+                </div>
+
+                <div class="section-title">Perumpamaan</div>
+                <div class="math-box">x= Hiasan</div>
+                <div class="math-box">y= Lampu Motherboard</div
+
+                <div class="section-title">Model Matematika (SPLDV)</div>
+                <div class="math-box">x + 2y = 230.000 (Paket A)</div>
+                <div class="math-box">2x + y = 190.000 (Paket B)</div>
+
+                <div class="section-title"> Bentuk Penyelesaian</div>
+                <div class="math-box">Eliminasi y untuk memperoleh nilai x</div>
+                <diiv class="math-box"> x+2y=230.000 dikali (1)</diiv>
+                <div class="math-box">2x+y=1190.000 dikali (2)</div>
+                <div class="math-box">=x+2y=230.000</div>
+                <div class="math-box">=2x+y=380.000</div>
+                <div class="math-box">-3x  =-150.000</div>
+                <div class="math-box">X =-150.000:-3 </div>
+                <diiv class="math-box">x =50.000</diiv>
+                <br>
+
+                <br>
+                <div class="math-box">Subsitusi</div>
+                <div class="math-box">x+2y=230.000 </div>
+                <diiv class="math-box">(50.000)+2y=230.000</diiv>
+                <div class="math-box">50.000+2y=230.000</div>
+                <div class="math-box">2x= 230.000-50.000</div>
+                <div class="math-box">2y=180.000</div>
+                <div class="math-box">y=180.000 : 2</div>
+                <div class="math-box">y = 90.000</div>
+
+                <div class="result-card">
+                    <h3>Hasil Perhitungan Harga Satuan:</h3>
+                    <div class="result-item">
+                        <span>1 Hiasan Periferal (p):</span>
+                        <strong>Rp 50.000</strong>
+                    </div>
+                    <div class="result-item">
+                        <span>1 Lampu Hias Motherboard (q):</span>
+                        <strong>Rp 90.000</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <script>
+        function switchTab(index) {
+            const tabs = document.querySelectorAll('.tab-btn');
+            const contents = document.querySelectorAll('.content');
+
+            tabs.forEach((tab, i) => {
+                if (i === index) {
+                    tab.classList.add('active');
+                    contents[i].classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                    contents[i].classList.remove('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
